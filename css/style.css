@@ -11,7 +11,7 @@ html, body{
 }
 
 nav{
-  height: 80px;
+  height: 95px;
   width: 100%;
   background: #202020;
   color: #ffffff;
@@ -24,12 +24,18 @@ footer{
   background: #202020;
   color: #fff;
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .about{
   max-width: 70%;
   padding: 1.5rem;
   text-align: left;
+}
+
+.img--nav{
+  padding: 5px 0 0 10px;
 }
 
 .nav--inline{
