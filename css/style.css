@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+a, a:active, a:focus, a:hover{
+  color: #fff;
+}
+
 html, body{
   font-size: 18px;
   box-sizing: inherit;
@@ -26,6 +30,10 @@ footer{
   display: inline-block;
   margin: 0;
   padding: 0;
+}
+
+.ancla-footer{
+  color: #fff;
 }
 
 .about{
@@ -61,4 +69,28 @@ footer{
 .inline--footer{
   display: inline-block;
   padding-left: 10px;
+}
+
+
+@media screen and (max-width: 680px){
+  footer{
+    height: 300px;
+  }
+  .header--nav{
+    padding-left: 10px;
+  }
+  .about{
+    max-width: 90%;
+    padding: 1.5rem;
+    text-align: left;
+  }
+}
+
+
+
+@media screen and (max-width: 490px){
+  .header--nav{
+    padding-left: 10px;
+    font-size: 14px;
+  }
 }
